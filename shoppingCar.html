@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/shoppingCar.min.css">
+    <title>订单页</title>
+    <script src="js/require.js" async="true" defer data-main="js/mainShoppingCar"></script>
+</head>
+<body>
+    <!-- nav -->
+    <div id="navbox">
+            <nav class="clearfn">
+                <div id="navleft">
+                    <li><a href="">服务中心</a></li>
+                    <li><a href="">以旧换新</a></li>
+                    <li><a href="">新机租赁</a></li>
+                    <li><a href="">企业团购</a></li>
+                    <li><a href="">会员福利</a></li>
+                </div>
+                <div id="navright">
+                        <a id="shoppigCar">
+                            <i></i>
+                            <span>购物车（</span>
+                            <em>0</em>
+                            <span>)</span>
+                            <div id="scList">
+                                购物车中还没有商品，赶紧选购吧！
+                            </div>
+                        </a>
+                        <li>
+                            <a>我的订单</a>
+                        </li>
+                        <li>
+                            <a>消息</a>
+                        </li>
+                        <li class="othirdLi">
+                            <a href="register.html">注册</a>
+                        </li>
+                        <li class="osecondLi">|</li>
+                        <li class="ofirstLi">
+                            <a href="register.html">登录</a>
+                        </li>
+                        <div id="login">
+                            <span id="name"></span>
+                            <i id="i">∨</i>
+                            <ul class="nUl">
+                                <li class="nLi">个人中心</li>
+                                <li class="nLi">评价晒单</li>
+                                <li class="nLi">我的收藏</li>
+                                <li class="nLi">
+                                    <a href="" id="esc">退出登录</a>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+            </nav>
+        </div>
+    
+    
+        <!-- top -->
+        <div id="topbox">
+                <div id="top">
+                        <a id="topleft">
+                            <img src="https://static.asus.com.cn/store/20180911/14375551535398.png" alt="">
+                        </a>
+                        <ul id="titleul">
+                            <!-- <li><a href="">华硕官网</a></li>
+                            <li><a href="">个人及家用产品</a></li>
+                            
+                            <li><a href="">热门活动</a></li>
+                            <li><a href="">企业团购</a></li>
+                            <li><a href="">服务与支持</a></li> -->
+                        </ul>
+                        <div id="topright">
+                                <input type="text">
+                                <div id="search">11.11硕好来买</div>
+                                <button class="iconfont">&#xe62d;</button>
+                                <ul id="topul" class="clearfn">
+                                    <li>
+                                        <a href="">游戏本分会场</a>
+                                    </li>
+                                    <li>
+                                        <a href="">轻薄本分会场</a>
+                                    </li>
+                                    <li>
+                                        <a href="">ROG分会场</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        
+                        
+                    </div>
+    
+                    <div id="topNavBox">
+                            <!-- <div class="topNav"> -->
+                                <!-- <li>
+                                    <div class="topImgBox">
+                                        <img src="//static.asus.com.cn/store/20180926/09455010110110.png" alt="">
+                                    </div>
+                                    <p>笔记本电脑</p>
+                                </li>
+                            </div> -->
+                            <!-- <div class="topNav2">
+                                <li>
+                                    <img src="//static.asus.com.cn/store/20190723/10252957974954.jpg" alt="">
+                                    <p class="nav2">新会员招募</p>
+                                </li>
+                            </div> -->
+                    </div>
+        </div>
+        <form action="">
+            <div class="container">
+                <div class="pay">
+                    <div class="header">
+                        <ul class="headerUl clearfn">
+                            <li class="headerLi">
+                                <input id="totalCheck" type="checkbox" checked>
+                                <span >全选</span>
+                            </li>
+                            <li class="headerLi">商品</li>
+                            <li class="headerLi">销售价</li>
+                            <li class="headerLi">数量</li>
+                            <li class="headerLi">优惠金额</li>
+                            <li class="headerLi">积分</li>
+                            <li class="headerLi">小计</li>
+                            <li class="headerLi">操作</li>
+                        </ul>
+                    </div>
+                    <div class="carList">
+                        <ul class="carUl">
+                            <!-- <div class="carItem">
+                                <div class="product">
+                                    <ul class="productUl">
+                                        <li>
+                                            <input type="checkbox">
+                                        </li>
+                                        <li>
+                                            <img src="//static.asus.com.cn/store/album/images/OPJ9T4C2VVQ6G7/12584654499810.jpg" alt="">
+                                            <p>【新品发售】飞行堡垒7 九代酷睿i7 15.6英寸游戏笔记本电脑 - 金属电竞</p>
+                                        </li>
+                                        <li>￥8499</li>
+                                        <li class="changeC">
+                                            <article class="a">-</article>
+                                            <input type="text" value = "1">
+                                            <article class="a">+</article>
+                                        </li>
+                                        <li>￥0</li>
+                                        <li>16998</li>
+                                        <li>16998</li>
+                                        <li>×</li>
+                                    </ul>
+                                </div>
+                            </div> -->
+                        </ul>
+                        
+                        <div class="total">
+                            <div class="totalLeft">
+                                    <a href="" class="buy">继续购物</a>
+                                    <p class="num">共<span id="sum"></span>件商品，已选择<span id="checked"></span>件</p>
+                            </div>
+                            <span class="go">去结算</span>
+                            <div class="price">
+                                    <span id="figure">合计</span>
+                                    <b id="money">￥0</b>
+                                </div>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </form>
+    <!-- bottom -->
+    <div id="serveBox">
+            <div id="serve">
+                <ul>
+                    <li><i></i>7天无理由退货</li>
+                    <li><i></i>15天免费换货</li>
+                    <li><i></i>满69元包邮</li>
+                    <li><i></i>预约维修服务</li>
+                    <li><i></i>支持支付宝&花呗分期</li>
+                </ul>
+            </div>
+    </div>
+        
+        <div id="helperBox" class="clearfn">
+            <div class="help">
+                <div class="helpItem">
+                    <dl>
+                        <dt class="contentTitle">公司介绍</dt>
+                        <dd>关于华硕</dd>
+                        <dd>华硕承诺</dd>
+                        <dd>交易条款</dd>
+                        <dd>特别提醒</dd>
+                    </dl>
+                </div>
+                <div class="helpItem">
+                    <dl>
+                        <dt class="contentTitle">购物指南</dt>
+                        <dd>订单说明</dd>
+                        <dd>会员注册</dd>
+                        <dd>会员账户安全与信息</dd>
+                        <dd>购物流程</dd>
+                        <dd>积分使用说明</dd>
+                        <dd>优惠券使用说明</dd>
+                        <dd>常见问题</dd>
+                        <dd>华硕商城服务协议说明</dd>
+                        <dd>授权服务店服务说明</dd>
+                        <dd>以旧换新</dd>
+                    </dl>
+                </div>
+                <div class="helpItem">
+                    <dl>
+                        <dt class="contentTitle">配送与付款</dt>
+                        <dd>发货与签收规范</dd>
+                        <dd>配送运费说明</dd>
+                        <dd>配送常见问题</dd>
+                        <dd>配送异常</dd>
+                        <dd>付款咨询</dd>
+                        <dd>发票说明</dd>
+                        <dd>发票常见问题</dd>
+                        <dd>蚂蚁花呗常见问题</dd>
+                    </dl>
+                </div>
+                <div class="helpItem">
+                    <dl>
+                        <dt class="contentTitle">服务与支持</dt>
+                        <dd>华硕服务中心查询</dd>
+                        <dd>华硕授权实体门店查询</dd>
+                        <dd>华硕智汇家</dd>
+                        <dd>中国RoHS合格评定标识</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+
+<div id="footer">
+    <p>有任何购物问题请联系商城客服 | 电话：400-091-9520</p>
+    <p>
+        <a target="_blank" href="https://static.asus.com.cn/static/store/asus.pdf">营业执照：12000002201803260012</a>
+        &nbsp;│沪ICP备11025349号-3&nbsp;│ ASUSTeK Computer Inc. All Rights Reserved.
+    </p>
+    <div class="bot">
+        <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011202002313">
+            <img src="">
+        </a>
+        <p>
+            <img src="//static.asus.com.cn/static/store/images/735f16509d9a54d5ddade073f133e7dcf2c0a486.png?1499224546#h">
+            <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011202002313">沪公网安备31011202002313号</a>
+        </p>
+    </div>
+</div>
+
+</body>
+</html>

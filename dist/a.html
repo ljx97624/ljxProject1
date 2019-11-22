@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        var str = {
+            "topNav":[
+                {
+                    "title":"华硕官网",
+                    "url":"https://w3.asus.com.cn/"
+                },
+                {
+                    "title":"个人及家用产品",
+                    "childs":[
+                        {
+                            "name":"笔记本电脑",
+                            "img":"https://static.asus.com.cn/store/20180926/09455010110110.png",
+                            "url":"https://www.asus.com.cn/store/gallery-1.html"
+                        },
+                        
+                        {
+                            "name":"智能手机",
+                            "img":"https://static.asus.com.cn/store/20180926/13020510054515.png",
+                            "url":"https://www.asus.com.cn/store/gallery-1.html"
+                        },
+                        {
+                            "name":"游戏设备",
+                            "img":"https://static.asus.com.cn/store/20180926/13034751519949.png",
+                            "url":"https://www.asus.com.cn/store/gallery-1.html"
+                        },
+                        {
+                            "name":"网络产品",
+                            "img":"https://static.asus.com.cn/store/20180926/13032499535749.png",
+                            "url":"https://www.asus.com.cn/store/gallery-1.html"
+                        },
+                        {
+                            "name":"台式电脑及一体电脑",
+                            "img":"https://static.asus.com.cn/store/20180926/13041648495257.png",
+                            "url":"https://www.asus.com.cn/store/gallery-1.html"
+                        },
+                        {
+                            "name":"主板",
+                            "img":"https://static.asus.com.cn/store/20180926/09461353971019.png",
+                            "url":"https://www.asus.com.cn/store/gallery-1.html"
+                        },
+                        {
+                            "name":"显卡",
+                            "img":"https://static.asus.com.cn/store/20180926/09463256565510.png",
+                            "url":"https://www.asus.com.cn/store/gallery-47.html"
+                        },
+                        {
+                            "name":"液晶显示器",
+                            "img":"https://static.asus.com.cn/store/20180926/13014153525353.png",
+                            "url":"https://www.asus.com.cn/store/gallery-48.html"
+                        },
+                        {
+                            "name":"平板电脑",
+                            "img":"https://static.asus.com.cn/store/20180926/13050310210150.png",
+                            "url":"https://www.asus.com.cn/store/gallery-1.html"
+                        },
+                        {
+                            "name":"周边配件",
+                            "img":"https://static.asus.com.cn/store/20180926/13054899511015.png",
+                            "url":"https://www.asus.com.cn/store/gallery-1.html"
+                        },
+                        {
+                            "name":"多媒体产品",
+                            "img":"https://static.asus.com.cn/store/20180926/13043652495050.png",
+                            "url":"https://www.asus.com.cn/store/gallery-1.html"
+                        },
+                        {
+                            "name":"智能机器人",
+                            "img":"https://static.asus.com.cn/store/20180926/13063497495797.png",
+                            "url":"https://www.asus.com.cn/store/gallery-1.html"
+                        },
+                        {
+                            "name":"服务器与工作网站",
+                            "img":"https://static.asus.com.cn/store/20180926/13061454975555.png",
+                            "url":"https://www.asus.com.cn/store/gallery-1.html"
+                        },
+                        
+                    ],
+                    "url":"https://www.asus.com.cn/Laptops/"
+                },
+                {
+                    "title":"热门活动",
+                    "childs":[
+                        
+                        {
+                            "name":"预售榜单",
+                            "img":"https://static.asus.com.cn/store/20191104/13325353555252.jpg",
+                            "url":"https://www.asus.com.cn/store/articles/project-activity.html?id=195"
+                        },
+                        {
+                            "name":"新品榜单",
+                            "img":"https://static.asus.com.cn/store/20191104/13374899505754.jpg",
+                            "url":"https://www.asus.com.cn/store/articles/project-activity.html?id=193"
+                        },
+                        {
+                            "name":"轻薄本榜单",
+                            "img":"https://static.asus.com.cn/store/20191104/14083248100555.jpg",
+                            "url":"https://www.asus.com.cn/store/articles/project-activity.html?id=192"
+                        },
+                        {
+                            "name":"ROG",
+                            "img":"https://static.asus.com.cn/store/20191104/14103710056555.jpg",
+                            "url":"https://www.asus.com.cn/store/articles/project-activity.html?id=191"
+                        },
+                        {
+                            "name":"路由器组网黑科技专区",
+                            "img":"https://static.asus.com.cn/store/20190725/16502852519999.jpg",
+                            "url":"https://www.asus.com.cn/wap/articles/project-activity.html?id=150"
+                        }
+                    ]
+                },
+                {
+                    "title":"企业团购",
+                    "url":"https://www.asus.com.cn/store/articles/project-activity.html?id=169"
+                },
+                {
+                    "title":"服务与支持",
+                    "childs":[
+                        {
+                            "name":"服务与支持",
+                            "img":"https://static.asus.com.cn/store/20180926/13092957555454.png"
+                        },
+                        {
+                            "name":"玩家国度ROG论坛",
+                            "img":"https://static.asus.com.cn/store/20180926/13095551485456.png"
+                        }
+                    ],
+                    "url":"https://www.asus.com.cn/support/"
+                }
+            ],
+
+
+
+
+            "leftNav":[
+                {
+                    "title":"笔记本电脑",
+                    "img":"//static.asus.com.cn/store/20191101/09392510097554.jpg",
+                    "childs":[
+                        {
+                            "name":"灵耀轻薄本",
+                            "image":"https://static.asus.com.cn/store/20180920/12383810148559.jpg",
+                            "nodes":["灵耀Dluxe系列","灵耀S系列","灵耀U系列","灵耀X系列"]
+                        },
+                        {
+                            "name":"游戏笔记本",
+                            "image":"https://static.asus.com.cn/store/20181017/14084510050489.jpg",
+                            "nodes":["顽石系列","飞行堡垒系列","Mars新品"]
+                        },
+                        {
+                            "name":"办公娱乐本",
+                            "image":"https://static.asus.com.cn/store/20181017/14083248995056.jpg",
+                            "nodes":["效能先锋系列","学生助手系列","大屏影音系列"]
+                        },
+                        {
+                            "name":"商用笔记本",
+                            "image":"https://static.asus.com.cn/store/20180919/22380949999856.jpg",
+                            "nodes":["破晓&便携P系列","高端商务B系列","主流办公Pro系列"]
+                        },
+                        {
+                            "name":"翻转变形本",
+                            "image":"https://static.asus.com.cn/store/20180919/22401749484852.jpg",
+                            "nodes":["灵焕系列"]
+                        },
+                        {
+                            "image":"https://static.asus.com.cn/store/20190702/09533097505552.jpg",
+                            "name":"ARTONE"
+                        }
+                    ]
+                },
+                {
+                    "title":"ROG电竞专区",
+                    "img":"//static.asus.com.cn/store/20191003/19411699485357.jpg",
+                    "childs":[
+                        {
+                            "name":"电竞游戏本",
+                            "image":"https://static.asus.com.cn/store/20181015/15322798509850.jpg",
+                            "nodes":["超神","冰刃","枪神","魔霸","幻"]
+                        },
+                        {
+                            "name":"游戏手机",
+                            "image":"https://static.asus.com.cn/store/20181016/10160654515510.png",
+                            "nodes":["游戏手机","游戏手机周边"]
+                        },
+                        {
+                            "name":"电竞台机",
+                            "image":"https://static.asus.com.cn/store/20190103/16211256534810.jpg",
+                            "nodes":["GL12","G21","其他"]
+                        },
+                        {
+                            "name":"主板",
+                            "image":"https://static.asus.com.cn/store/20190103/15344856509950.jpg",
+                            "nodes":["ROG系列"]
+                        },
+                        {
+                            "name":"显卡",
+                            "image":"https://static.asus.com.cn/store/20190103/15351450535350.jpg",
+                            "nodes":["ROG系列"]
+                        },
+                        {
+                            "name":"显示器",
+                            "image":"https://static.asus.com.cn/store/20190103/15353050569857.jpg",
+                            "nodes":["ROG系列"]
+                        },
+                        {
+                            "name":"散热器",
+                            "image":"https://static.asus.com.cn/store/20190103/15354549555110.jpg",
+                            "nodes":["ROG系列"]
+                        }
+                    ]
+                },
+                {
+                    "title":"adol(a豆)专区",
+                    "img":"https://static.asus.com.cn/store/20191101/09555598565597.jpg",
+                    "childs":[
+                        {
+                            "name":"笔记本电脑",
+                            "image":"https://static.asus.com.cn/store/20190321/13185510249485.png",
+                        },
+                        {
+                            "name":"平板电脑",
+                            "image":"https://static.asus.com.cn/store/20191106/10334557529749.png",
+                        },
+                        {
+                            "name":"鼠标",
+                            "image":"https://static.asus.com.cn/store/20180915/10445897501025.jpg",
+                        },
+                        {
+                            "name":"包袋",
+                            "image":"https://static.asus.com.cn/store/20180919/23394099991024.png",
+                        },
+                        {
+                            "name":"智能周边",
+                            "image":"https://static.asus.com.cn/store/20190220/15011810197555.jpg",
+                        }
+                    ]
+                },
+                {
+                    "title":"整机产品",
+                    "img":"//static.asus.com.cn/store/20180916/09342852499957.jpg",
+                    "childs":[
+                        {
+                            "image":"https://static.asus.com.cn/store/20180926/07435256100499.jpg",
+                            "name":"一体机",
+                            "nodes":["傲世-Z系列","猎鹰-V系列","商用-A系列"]
+                        },
+                        {
+                            "image":"https://static.asus.com.cn/store/20180918/08414798495750.jpg",
+                            "name":"Mini PC",
+                            "nodes":["高效商用-UN系列","ROG-GR系列","口袋电脑-VIVO STICK系列","高效商用-PB系列","高效商用-VC系列"]
+                        }
+                    ]
+                },
+                {
+                    "title":"网络/智能产品",
+                    "img":"//static.asus.com.cn/store/20190527/16474210110154.jpg",
+                    "childs":[
+                        {
+                            "name":"家用路由器",
+                            "image":"https://static.asus.com.cn/store/20180926/07445151481019.jpg",
+                        },
+                        {
+                            "name":"电竞路由器",
+                            "image":"https://static.asus.com.cn/store/20180915/10492957535351.jpg",
+                        },
+                        {
+                            "name":"分布式路由器",
+                            "image":"https://static.asus.com.cn/store/20180915/10502310298535.jpg",
+                        },
+                        {
+                            "name":"智能机器人",
+                            "image":"https://static.asus.com.cn/store/20190612/14492048524910.jpg",
+                        },
+                        {
+                            "name":"智能手表",
+                            "image":"https://static.asus.com.cn/store/20190612/15124297519857.png",
+                        }
+                    ]
+                },
+                {
+                    "title":"显示器/键鼠外设",
+                    "img":"//static.asus.com.cn/store/20190705/16483955994849.jpg",
+                    "childs":[
+                        {
+                            "image":"https://static.asus.com.cn/store/20190612/14563854100509.jpg",
+                            "name":"显示器",
+                            "nodes":["ROG系列","游戏影音","专业影像","主流家用"]
+                        },
+                        {
+                            "image":"https://static.asus.com.cn/store/20190612/15000957521019.jpg",
+                            "name":"键鼠外设",
+                            "nodes":["键盘","鼠标","电竞耳机"]
+                        }
+                        
+                    ]
+                },
+                {
+                    "title":"DIY电脑配件",
+                    "img":"//static.asus.com.cn/store/20190705/16321850101565.jpg",
+                    "childs":[
+                        {
+                            "image":"https://static.asus.com.cn/store/20180915/10382310297995.jpg",
+                            "name":"主板",
+                            "nodes":["ROG系列","特种部队TUF","大师PRIME","玩家系列","主流家用"]
+                        },
+                        {
+                            "image":"https://static.asus.com.cn/store/20180915/10400452975151.jpg",
+                            "name":"显卡",
+                            "nodes":["ROG系列","电竞游戏","主流家用"]
+                        },
+                        {
+                            "image":"https://static.asus.com.cn/store/20181106/14245897535210.jpg",
+                            "name":"散热器",
+                            "nodes":["ROG系列"]
+                        },
+                        {
+                            "image":"https://static.asus.com.cn/store/20190505/10425198985448.jpg",
+                            "name":"机箱",
+                            "nodes":["ROG系列","TUF系列"]
+                        },
+                        {
+                            "image":"https://static.asus.com.cn/store/20190505/10441410149491.jpg",
+                            "name":"电源",
+                            "nodes":["ROG系列"]
+                        }
+                    ]
+                },
+                {
+                    "title":"周边配件/增值服务",
+                    "img":"//static.asus.com.cn/store/20190705/16321850101565.jpg",
+                    "childs":[
+                        {
+                            "name":"笔记本配件",
+                            "image":"https://static.asus.com.cn/store/20180915/11255551549899.jpg"
+                        },
+                        {
+                            "name":"手机配件",
+                            "image":"https://static.asus.com.cn/store/20180915/11270153534948.jpg"
+                        },
+                        {
+                            "name":"平板配件",
+                            "image":"https://static.asus.com.cn/store/20180915/11273656525053.jpg"
+                        },
+                        {
+                            "name":"增值服务",
+                            "image":"https://static.asus.com.cn/store/20180915/11281299981025.jpg",
+                            "nodes":["无忧服务","ROG服务包","新机护航"]
+                        }
+                    ]
+                }
+            ],
+
+            "banner":[
+                {"img":"//static.asus.com.cn/store/20191017/13530751100995.jpg","id":0},
+                {"img":"//static.asus.com.cn/store/20191104/22105299985050.jpg","id":1},
+                {"img":"//static.asus.com.cn/store/20191107/22283450495410.jpg","id":2},
+                {"img":"//static.asus.com.cn/store/20191111/15115699535297.jpg","id":3},
+                {"img":"//static.asus.com.cn/store/20191110/15334153100975.jpg","id":4},
+                {"img":"//static.asus.com.cn/store/20191108/22064048985198.jpg","id":5},
+                {"img":"//static.asus.com.cn/store/20191004/22411810148555.jpg","id":6},
+                {"img":"//static.asus.com.cn/store/20191017/13530751100995.jpg","id":7}
+            ],
+
+            "choose":[
+                {
+                    "img":"https://static.asus.com.cn/store/20191009/10460949549952.png",
+                    "title":"会员福利",
+                    "img1":"https://static.asus.com.cn/store/20191014/16555810110153.png",
+                },
+                {
+                    "img1":"https://static.asus.com.cn/store/20191014/16560856495653.png",
+                    "img":"https://static.asus.com.cn/store/20191009/10462310251545.png",
+                    "title":"企业团购"
+                },
+                {
+                    "img1":"https://static.asus.com.cn/store/20191014/16561410199535.png",
+                    "img":"https://static.asus.com.cn/store/20191009/10463256495098.png",
+                    "title":"新品发布"
+                },
+                {
+                    "img1":"https://static.asus.com.cn/store/20191014/16562254485410.png",
+                    "img":"https://static.asus.com.cn/store/20191009/10464149499850.png",
+                    "title":"限时特惠"
+                },
+                {
+                    "img1":"https://static.asus.com.cn/store/20191014/16562899984950.png",
+                    "img":"https://static.asus.com.cn/store/20191009/10465097521005.png",
+                    "title":"ROG专区"
+                },
+                {
+                    "img1":"https://static.asus.com.cn/store/20191014/16563551985251.png",
+                    "img":"https://static.asus.com.cn/store/20191009/10465850100541.png",
+                    "title":"选机助手"
+                },
+                {
+                    "img1":"https://static.asus.com.cn/store/20191014/16564297501009.png",
+                    "img":"https://static.asus.com.cn/store/20191009/10470798995599.png",
+                    "title":"领券中心"
+                },
+                {
+                    "img1":"https://static.asus.com.cn/store/20191014/16564848100102.png",
+                    "img":"https://static.asus.com.cn/store/20191009/10471551561005.png",
+                    "title":"驱动下载"
+                },
+                {
+                    "img1":"https://static.asus.com.cn/store/20191014/16565998991011.png",
+                    "img":"https://static.asus.com.cn/store/20191009/10474310254524.png",
+                    "title":"a豆智能"
+                }
+            ],
+
+            "hotListBox":[
+                {
+                    
+                    "img":"//static.asus.com.cn/store/album/images/HLKCSJTK8SN9CJ/17275357102485.jpg",
+                    "title":"飞行堡垒7 经典版",
+                    "model":"AMD标压 512G固态硬盘",
+                    "price":"￥5199",
+                    "oldPrice":"￥6999",
+                    "id":0
+                },
+                {
+                    "img":"//static.asus.com.cn/store/album/images/G3ADY7HMIGQW8U/23101897565551.jpg",
+                    "title":"飞行堡垒7  金属电竞",
+                    "model":"9代i7  GTX1650显卡",
+                    "price":"￥6799",
+                    "oldPrice":"￥7999",
+                    "id":2
+                },
+                {
+                    "img":"//static.asus.com.cn/store/album/images/JHRMU4ECZ9M2IH/10352398544856.jpg",
+                    "title":"ROG 游戏手机2",
+                    "model":"骁龙855Plus芯片 120Hz电竞屏",
+                    "price":"￥5999",
+                    "oldPrice":"￥5999",
+                    "id":3
+                },
+                {
+                    "img":"//static.asus.com.cn/store/album/images/M0QMZPT9WED87I/11005656535154.jpg",
+                    "title":"ROG游戏手机2",
+                    "model":"ROG游戏手机2电竞装甲套装经典版",
+                    "price":"￥11999",
+                    "oldPrice":"￥13999",
+                    "id":4
+                },
+                {
+                    "img":"//static.asus.com.cn/store/album/images/TB5LPUFZDE9ZS2/10352499484899.jpg",
+                    "title":"VivoBook15-银色",
+                    "model":"四面窄边框 轻薄高性能",
+                    "price":"￥4999",
+                    "oldPrice":"￥5399",
+                    "id":5
+                },
+                {
+                    "img":"//static.asus.com.cn/store/album/images/JHRMU4ECZ9M2IH/10352398544856.jpg",
+                    "title":"ROG 游戏手机2",
+                    "model":"骁龙855Plus芯片 12GB+1TB",
+                    "price":"￥7999",
+                    "oldPrice":"￥7999",
+                    "id":6
+                },
+                {
+                    "img":"//static.asus.com.cn/store/album/images/GBHJ95R9SPOUEU/18180848541029.jpg",
+                    "title":"灵耀Deluxe14数字键盘版",
+                    "model":"92%全面屏   A4纸大小",
+                    "price":"￥7199",
+                    "oldPrice":"￥8199",
+                    "id":7
+                },
+                {
+                    "img":"//static.asus.com.cn/store/album/images/O4Q60UNTZ1JDOV/17324056511015.jpg",
+                    "title":"ROG游戏手机+手柄礼盒套装",
+                    "model":"3D冷凝技术  高通骁龙845",
+                    "price":"￥5999",
+                    "oldPrice":"￥5999",
+                    "id":8
+                },
+                {
+                    "img":"//static.asus.com.cn/store/album/images/MU9LH7CJJAGZC5/18004710210154.jpg",
+                    "title":"飞行堡垒6  金属电竞版",
+                    "model":"八代i7 GTX1050Ti",
+                    "price":"￥6099 ",
+                    "oldPrice":"￥6899",
+                    "id":9
+                },
+                {
+                    "img":"//static.asus.com.cn/store/album/images/S5HRD98V1ER734/14493510251995.jpg",
+                    "title":"灵耀X2 Pro",
+                    "model":"人脸识别 双屏 快速充电",
+                    "price":"￥29999",
+                    "oldPrice":"￥36999",
+                    "id":10
+                },
+                {
+                    "img":"//static.asus.com.cn/store/album/images/PKKN72FDTW9GX4/13510355575110.jpg",
+                    "title":"Mars15商务轻薄游戏本",
+                    "model":"120hz刷新率 酷睿9代",
+                    "price":"￥6799 ",
+                    "oldPrice":"￥7799",
+                    "id":11
+                },
+                {
+                    "img":"//static.asus.com.cn/store/album/images/HGOUSZ7D7ZAADP/14091497989999.jpg",
+                    "title":"Mars15商务轻薄游戏本",
+                    "model":"120hz刷新率 酷睿9代",
+                    "price":"￥5999",
+                    "oldPrice":"￥5999",
+                    "id":12
+                },
+            ],
+
+
+            "innerData":[
+                {
+                    "img":"//static.asus.com.cn/store/20191107/17440452984852.png",
+                    "center":[
+                        {
+                            "name":"新品",
+                            "img":[
+                                "//static.asus.com.cn/store/20191111/02303710099494.jpg",
+                                "//static.asus.com.cn/store/20191107/16471450555755.png",
+                                "//static.asus.com.cn/store/20190810/01110355501025.jpg",
+                                "//static.asus.com.cn/store/20191111/02303710099494.jpg",
+                            ],
+                            "bottom":[
+                                {
+                                    "img":"//static.asus.com.cn/store/album/images/OPJ9T4C2VVQ6G7/12584654499810.jpg",
+                                    "title":"飞行堡垒7  金属电竞",
+                                    "info":"9代i7  GTX1660Ti显卡",
+                                    "price":"￥8499",
+                                    "oldPrice":"￥8899"
+                                },
+                                {
+                                    "img":"//static.asus.com.cn/store/album/images/TUFMJZ1BS3IQ6K/15350697989910.jpg",
+                                    "title":"顽石畅玩版FL8700FB",
+                                    "info":"八代i5处理器 高清大屏",
+                                    "price":"￥4199",
+                                    "oldPrice":"￥4499"
+                                },
+                                {
+                                    "img":"//static.asus.com.cn/store/album/images/PKKN72FDTW9GX4/13510355575110.jpg",
+                                    "title":" Mars15商务轻薄游戏本",
+                                    "info":"120hz刷新率 酷睿9代",
+                                    "price":"￥6999",
+                                    "oldPrice":"￥7799"
+                                }
+                            ],
+                        },
+                        {
+                            "name":"顽石",
+                            "list":[
+                                {
+                                    "img":"//static.asus.com.cn/store/album/images/TUFMJZ1BS3IQ6K/15350697989910.jpg",
+                                    "title":"顽石畅玩版FL8700FB",
+                                    "info":"9代i7  GTX1660Ti显卡",
+                                    "price":"￥8499",
+                                    "oldPrice":"￥8899"
+                                },
+                                {
+                                    "img":"//static.asus.com.cn/store/album/images/F0API81XSA4GOW/16013198559753.jpg",
+                                    "title":"顽石畅玩版FL8700FB",
+                                    "info":"八代i5处理器 高清大屏",
+                                    "price":"￥4199 ",
+                                    "oldPrice":"￥4499"
+                                },
+                                {
+                                    "img":"//static.asus.com.cn/store/album/images/XMJ9OFVAHS5L3J/11413410110251.jpg",
+                                    "title":"顽石畅玩版FL8700FJ",
+                                    "info":"八代i7处理器 高清大屏",
+                                    "price":"￥5099",
+                                    "oldPrice":"￥5399"
+                                },
+                                {
+                                    "img":"//static.asus.com.cn/store/album/images/MEF9O88VQ82EZM/09465850101971.jpg",
+                                    "title":"顽石6代游戏本",
+                                    "info":"酷睿I7 MX230显卡",
+                                    "price":"￥5299 ",
+                                    "oldPrice":"￥5599"
+                                },
+                                {
+                                    "img":"//static.asus.com.cn/store/album/images/T0YY8DPZZR9QVM/19274549535248.jpg",
+                                    "title":"顽石Y4200DA",
+                                    "info":"R5-3500U 固态硬盘  ",
+                                    "price":"￥3799 ",
+                                    "oldPrice":"￥3999"
+                                },
+                                {
+                                    "img":"//static.asus.com.cn/store/album/images/J5DWH8QFFQN0BH/11405998565157.jpg",
+                                    "title":"顽石6代游戏本",
+                                    "info":"酷睿I7 MX230显卡",
+                                    "price":"￥5299",
+                                    "oldPrice":"￥5599"
+                                }
+                            ]
+                            
+                        },
+                        {
+                            "name":"飞行堡垒",
+                            "list":[
+                                {
+                                    "img":"//static.asus.com.cn/store/album/images/OPJ9T4C2VVQ6G7/12584654499810.jpg",
+                                    "title":"飞行堡垒7  金属电竞",
+                                    "info":"9代i7  GTX1660Ti显卡",
+                                    "price":"￥8499",
+                                    "oldPrice":"￥8899"
+                                },
+                                {
+                                    "img":"//static.asus.com.cn/store/album/images/G3ADY7HMIGQW8U/23101897565551.jpg",
+                                    "title":"飞行堡垒7  金属电竞",
+                                    "info":"9代i7  GTX1650显卡",
+                                    "price":"￥6999 ",
+                                    "oldPrice":"￥7999"
+                                },
+                                {
+                                    "img":"//static.asus.com.cn/store/album/images/OJ0EFNC40698CH/23115155491004.jpg",
+                                    "title":"飞行堡垒7-电竞版",
+                                    "info":"9代i5  GTX1650 4G显卡",
+                                    "price":"￥6199",
+                                    "oldPrice":"￥7399"
+                                },
+                                {
+                                    "img":"//static.asus.com.cn/store/album/images/DNSL2TLH8FOPHW/19052351569854.jpg",
+                                    "title":"飞行堡垒7 锐龙标压",
+                                    "info":"R7-3750H 512G SSD ",
+                                    "price":"￥5399",
+                                    "oldPrice":"￥6999"
+                                },
+                                {
+                                    "img":"//static.asus.com.cn/store/album/images/OJ0EFNC40698CH/23115155491004.jpg",
+                                    "title":"飞行堡垒7 9代i5 金属电竞",
+                                    "info":"9代i5-9300h GTX1650 4G显卡",
+                                    "price":"￥6399 ",
+                                    "oldPrice":"￥7399"
+                                },
+                                {
+                                    "img":"//static.asus.com.cn/store/album/images/VWOQARJ42YYHVL/10092856509954.jpg",
+                                    "title":"飞行堡垒6  火陨版",
+                                    "info":"八代标压 GTX1050Ti 4                                                                 ",
+                                    "price":"￥5799",
+                                    "oldPrice":"￥5799"
+                                },
+                               
+                            ]
+                        }
+                        
+                        
+                    ],
+                    "saleList":[
+                        {
+                            "img":"//static.asus.com.cn/store/album/images/OPJ9T4C2VVQ6G7/12584654499810.jpg",
+                            "title":"飞行堡垒7  金属电竞",
+                            "price":"￥8499"
+                        },
+                        {
+                            "img":"//static.asus.com.cn/store/album/images/G3ADY7HMIGQW8U/23101897565551.jpg",
+                            "title":"飞行堡垒7  金属电竞",
+                            "price":"￥6999"
+                        },
+                        {
+                            "img":"//static.asus.com.cn/store/album/images/XMJ9OFVAHS5L3J/11413410110251.jpg",
+                            "title":"顽石畅玩版FL8700FJ",
+                            "price":"￥5099"
+                        },
+                        {
+                            "img":"//static.asus.com.cn/store/album/images/PKKN72FDTW9GX4/13510355575110.jpg",
+                            "title":"Mars15商务轻薄游戏本",
+                            "price":"￥6999"
+                        },
+                        {
+                            "img":"//static.asus.com.cn/store/album/images/E9M1LX1BOMNLTO/11424048575598.jpg",
+                            "title":"顽石6代游戏本",
+                            "price":"￥5499"
+                        },
+                        {
+                            "img":"//static.asus.com.cn/store/album/images/TB5LPUFZDE9ZS2/10352499484899.jpg",
+                            "title":"VivoBook15-银色",
+                            "price":"￥5199"
+                        },
+                        {
+                            "img":"//static.asus.com.cn/store/album/images/G3ADY7HMIGQW8U/23101897565551.jpg",
+                            "title":"飞行堡垒7 9代i7 金属电竞",
+                            "price":"￥7099"
+                        },
+                        {
+                            "img":"//static.asus.com.cn/store/album/images/MU9LH7CJJAGZC5/18004710210154.jpg",
+                            "title":"飞行堡垒6  金属电竞版",
+                            "price":"￥6299"
+                        },
+
+
+                    ]
+                },
+
+
+
+            ],
+
+
+}
+
+        document.write(JSON.stringify(str));
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

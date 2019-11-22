@@ -1,0 +1,199 @@
+@import "base";
+
+.topBox{
+    width:100%;
+    height:80px;
+    background:white;
+    .top{
+        width:1260px;
+        margin:20px auto 0;
+    }
+}
+.containerBox{
+    background: #e34c6c;
+    .container{
+        width:1260px;
+        margin:0 auto;
+        position: relative;
+        padding-top:80px;
+        .conLeft{
+            
+            float:left;
+        }
+        .conRight{
+            padding:11px 30px;
+            width: 350px;
+            margin-left: 230px;
+            
+            // padding: 11px 15px;
+            background: #fff;
+            overflow: hidden;
+            .title{
+                width:350px;
+                height:50px;
+                padding-top:10px;
+                font-size:22px;
+                i{
+                    display: inline-block;
+                    vertical-align: middle;
+                    width: 2px;
+                    height: 20px;
+                    background-color: #ccc;
+                    margin: 0 20px;
+                }  
+                #code,#account{
+                    display: inline-block;
+                    vertical-align: middle;
+                    font-size: 22px;
+                    color: #919191;
+                    margin: 0;
+                    padding: 0;
+                    line-height: 19px;
+                    cursor: pointer;
+                }
+                #code:hover,#account:hover{
+                    color: #00a8ff;
+                }
+                #code.active,#account.active{
+                    color: #00a8ff;
+                }
+            }
+            #codeBox{
+                width:350px;
+                #tel{
+                    padding-left: 12px;
+                    padding-right: 0;
+                    height: 46px;
+                    line-height: 46px;
+                    font-size: 14px;
+                    width: 336px;
+                    color: #262626;
+                }
+                #checkNode{
+                    margin-top:15px;
+                    margin-bottom:6px;
+                    position: relative;
+                    width:350px;
+                    height:50px;
+                    #messageCode{
+                        padding-left: 12px;
+                        padding-right: 0;
+                        height: 46px;
+                        line-height: 46px;
+                        font-size: 14px;
+                        width: 336px;
+                        color: #262626;
+                        display: block;
+                    }
+                    a{
+                        
+                        position: absolute;
+                        top: 4px;
+                        right: 3px;
+                        padding: 9px 0;
+                        border-left: 1px solid #ccc;
+                        width: 120px;
+                        text-align: center;
+                        margin-left: 3px;
+                        margin-right: 3px;
+                        color: #333;
+                        font-size:14px;
+                    }
+                }
+                #repeatCode{
+                    padding-left: 12px;
+                    padding-right: 0;
+                    height: 46px;
+                    line-height: 46px;
+                    font-size: 14px;
+                    width: 336px;
+                    color: #262626;
+                    display: block;
+                    margin:10px auto;
+                }
+                p{
+                    font-size: 12px;
+                    color: #008aff;
+                    
+                }
+                #msg{
+                    margin:10px auto 15px;
+                    color:#00a8ff;
+                    display: none;
+                }
+                #agree{
+                    vertical-align: middle;
+                    margin:5px auto;
+                    height:21px;
+                    #box{
+                        line-height: 21px;
+                        height: 21px;
+                        border-width: 1px;
+                        border-color: #ccc;
+                        float: left;
+                        margin-right:4px;
+                    }
+                    p{
+                        float: left;
+                        display: block;
+                        line-height:21px;
+                        color:#666;
+                        font-size:12px;
+                        a{
+                            color: #0563c3;
+                            margin:0 5px;
+                        }
+                        a:hover{
+                            color:#777;
+                        }
+                    }
+                    
+                }
+            }
+            #go{
+                width:350px;
+                height:50px;
+                background: #00a8ff;
+                cursor: pointer;
+                text-align: center;
+                color:white;
+                line-height:50px;
+                font-size:14px;
+                margin-bottom:10px;
+            }
+            #miss{
+                display: block;
+                float:right;
+                font-size:12px;
+                margin-bottom:10px;
+                color: #333;
+            }
+
+            #idBox{
+                width:350px;
+                display: none;
+                input{
+                    padding-left:12px;
+                }
+                #email{
+                    width:350px;
+                    height:50px;
+                    display:block;
+                    margin-bottom:15px;
+                }
+                #secrectCode{
+                    width:350px;
+                    height:50px;
+                    display:block;
+                    margin-bottom:15px;
+                }
+                #alert{
+                    margin:10px auto 15px;
+                    color:#00a8ff;
+                    display: none;
+                    font-size:12px;
+                }
+            }
+        }
+    }
+}

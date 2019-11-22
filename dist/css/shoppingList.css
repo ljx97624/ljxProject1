@@ -1,0 +1,720 @@
+html, body, ul, ol, dl, li, dt, dd, p, form, input, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0; }
+
+b, strong, i, em, h1, h2, h3, h4, h5, h6, fieldset, select, img, textarea, legend {
+  font-weight: 500;
+  font-style: normal; }
+
+body {
+  font-size: 16px; }
+
+img, fieldset {
+  border: none; }
+
+img {
+  vertical-align: middle; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+ul, ol, li {
+  list-style: none; }
+
+.clearfn:after {
+  content: "";
+  clear: both;
+  height: 0;
+  display: block;
+  overflow: hidden;
+  visibility: hidden; }
+
+#navbox {
+  width: 100%;
+  background: #404040;
+  height: 40px; }
+  #navbox nav {
+    width: 1260px;
+    margin: 0 auto;
+    font-size: 14px; }
+    #navbox nav #navleft {
+      width: 380px;
+      height: 40px;
+      float: left; }
+      #navbox nav #navleft li {
+        float: left; }
+        #navbox nav #navleft li a {
+          font-size: 14px;
+          color: #b2b2b2;
+          display: inline-block;
+          margin: 0 10px;
+          line-height: 40px; }
+        #navbox nav #navleft li a:hover {
+          color: white; }
+    #navbox nav #navright {
+      display: block;
+      float: right;
+      width: 390px;
+      height: 40px;
+      position: relative; }
+      #navbox nav #navright #login:hover {
+        height: 160px;
+        background: white;
+        width: 120px;
+        padding: 0;
+        box-shadow: 0 2px 3px #ccc; }
+      #navbox nav #navright #login {
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        width: 120px;
+        height: 40px;
+        z-index: 100;
+        color: #b2b2b2;
+        background: #404040; }
+        #navbox nav #navright #login #name {
+          padding-left: 15px;
+          display: block;
+          max-width: 72px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          display: block;
+          height: 40px;
+          line-height: 40px;
+          float: left; }
+        #navbox nav #navright #login #i {
+          height: 40px;
+          line-height: 40px;
+          float: left;
+          font-size: 18px;
+          vertical-align: middle;
+          margin-left: 10px; }
+        #navbox nav #navright #login .nUl {
+          width: 120px; }
+          #navbox nav #navright #login .nUl .nLi {
+            width: 120px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            color: #404040; }
+            #navbox nav #navright #login .nUl .nLi #esc {
+              width: 100%;
+              color: #404040;
+              text-align: center;
+              line-height: 30px;
+              margin: 0;
+              padding: 0; }
+        #navbox nav #navright #login .nUl .nLi:hover {
+          background: #c2c2c2; }
+      #navbox nav #navright li {
+        float: right;
+        font-size: 14px;
+        color: #b2b2b2;
+        line-height: 40px; }
+        #navbox nav #navright li a {
+          font-size: 14px;
+          color: #b2b2b2;
+          display: inline-block;
+          margin: 0 15px;
+          line-height: 40px; }
+        #navbox nav #navright li a:hover {
+          color: white;
+          cursor: pointer; }
+      #navbox nav #navright #shoppigCar {
+        float: right;
+        width: 120px;
+        height: 40px;
+        color: #b2b2b2;
+        background-color: #4c4c4c;
+        position: relative;
+        cursor: pointer; }
+        #navbox nav #navright #shoppigCar i {
+          margin: 0 5px;
+          float: left;
+          display: block;
+          width: 25px;
+          height: 25px;
+          margin-top: 7px;
+          background: url("https://static.asus.com.cn/static/store/images/cart_icon.png") no-repeat; }
+        #navbox nav #navright #shoppigCar span, #navbox nav #navright #shoppigCar em {
+          line-height: 40px;
+          display: block;
+          float: left; }
+        #navbox nav #navright #shoppigCar #scList {
+          display: block;
+          width: 233px;
+          height: 80px;
+          background: #ffffff;
+          box-shadow: 0 2px 3px #ccc;
+          position: absolute;
+          right: 0;
+          top: 40px;
+          display: none;
+          z-index: 2;
+          color: #b2b2b2;
+          font-size: 14px;
+          line-height: 80px;
+          padding: 0px 35px; }
+        #navbox nav #navright #shoppigCar #scList:hover {
+          cursor: pointer; }
+
+#topbox {
+  width: 100%;
+  height: 99px;
+  position: relative; }
+
+#top {
+  width: 1260px;
+  height: 76px;
+  padding-top: 23px;
+  margin: 0 auto;
+  position: relative;
+  left: 0; }
+  #top #topleft {
+    width: 234px;
+    height: 77px;
+    cursor: pointer;
+    float: left; }
+  #top #titleul {
+    margin-top: 10px;
+    width: 570px;
+    height: 67px;
+    float: left; }
+    #top #titleul li {
+      height: 67px;
+      float: left; }
+      #top #titleul li a {
+        font-size: 14px;
+        display: block;
+        padding: 14px 20px 37px; }
+      #top #titleul li a:hover {
+        color: #00a8ff; }
+  #top #topright {
+    float: right;
+    width: 347px;
+    padding-left: 5px;
+    position: relative; }
+    #top #topright input {
+      display: block;
+      float: left;
+      width: 305px;
+      height: 38px;
+      border: none;
+      border: 1px solid gray;
+      position: relative; }
+    #top #topright #search {
+      margin: 0 4px;
+      padding: 0 10px;
+      position: absolute;
+      top: 9px;
+      right: 42px;
+      color: #353535;
+      background-color: #d9d9d9;
+      border-radius: 5px;
+      height: 22px;
+      line-height: 22px;
+      font-size: 12px; }
+    #top #topright #search:hover {
+      background: #00a8ff;
+      color: white; }
+    #top #topright button {
+      width: 40px;
+      height: 40px;
+      background: white;
+      border: 1px solid gray;
+      border-left: none; }
+    #top #topright button:hover {
+      background: #00a8ff;
+      color: white; }
+    #top #topright #topul {
+      display: block; }
+      #top #topright #topul li {
+        float: left;
+        margin-top: 5px; }
+        #top #topright #topul li a {
+          font-size: 14px;
+          margin-right: 10px; }
+        #top #topright #topul li a:hover {
+          color: #00a8ff; }
+
+#topNavBox {
+  width: 100%;
+  background: white;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  z-index: 100; }
+  #topNavBox .topNav {
+    width: 1260px;
+    height: 160px;
+    margin: 0 auto;
+    padding-top: 25px; }
+    #topNavBox .topNav .li1, #topNavBox .topNav .li3 {
+      width: 175px;
+      height: 80px;
+      float: left;
+      text-align: center;
+      font-size: 14px; }
+      #topNavBox .topNav .li1 .topImgBox, #topNavBox .topNav .li3 .topImgBox {
+        width: 175px;
+        height: 40px;
+        text-align: center; }
+        #topNavBox .topNav .li1 .topImgBox .nav1, #topNavBox .topNav .li3 .topImgBox .nav1 {
+          padding-top: 5px;
+          font-size: 14px;
+          color: #00a8ff; }
+    #topNavBox .topNav .li2 {
+      float: left;
+      margin-right: 10px;
+      font-size: 14px;
+      display: block; }
+      #topNavBox .topNav .li2 img {
+        width: 205px;
+        height: 130px;
+        display: block;
+        margin-bottom: 5px; }
+      #topNavBox .topNav .li2 .nav2 {
+        font-size: 14px;
+        text-align: left;
+        display: block; }
+
+#serveBox {
+  width: 100%;
+  height: 44px;
+  padding-top: 18px;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  background-color: #fafafa; }
+  #serveBox #serve {
+    width: 1260px;
+    height: 44px;
+    margin: 0 auto; }
+    #serveBox #serve ul li {
+      float: left;
+      width: 244px;
+      height: 28px;
+      font-size: 14px;
+      border-right: 1px solid #ccc;
+      color: #666; }
+      #serveBox #serve ul li i {
+        display: inline-block;
+        width: 30px;
+        height: 28px;
+        vertical-align: middle;
+        background: url(https://static.asus.com.cn/static/store/css/images/service_icon.png) no-repeat;
+        margin-right: 5px; }
+    #serveBox #serve li:nth-child(2) i {
+      background-position: 0 25%; }
+    #serveBox #serve li:nth-child(3) i {
+      background-position: 0 48%; }
+    #serveBox #serve li:nth-child(4) i {
+      background-position: 0 75%; }
+    #serveBox #serve li:nth-child(5) i {
+      background-position: 0 100%; }
+
+#helperBox {
+  padding-top: 60px;
+  padding-bottom: 80px;
+  background-color: #fafafa; }
+  #helperBox .help {
+    width: 1226px;
+    margin: 0 auto; }
+    #helperBox .help .helpItem {
+      margin-right: 100px;
+      float: left;
+      width: 204px; }
+      #helperBox .help .helpItem .contentTitle {
+        font-size: 16px;
+        color: #2d2d2d;
+        line-height: 24px;
+        margin-bottom: 15px; }
+      #helperBox .help .helpItem dd {
+        line-height: 24px;
+        font-size: 14px;
+        color: #646464; }
+
+#footer {
+  background-color: #fff;
+  padding-top: 20px;
+  text-align: center;
+  line-height: 1.8;
+  margin-top: 10px;
+  font-size: 14px; }
+  #footer p {
+    text-align: center;
+    color: #333; }
+    #footer p a {
+      color: #333;
+      font-size: 14px; }
+  #footer .bot {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px 0;
+    text-align: center; }
+    #footer .bot img {
+      text-align: center;
+      float: left; }
+    #footer .bot p img {
+      vertical-align: middle; }
+    #footer .bot p a {
+      float: left;
+      margin-left: 10px;
+      text-decoration: none;
+      height: 20px;
+      line-height: 20px; }
+
+.containerBox {
+  width: 100%;
+  background: #f2f2f2; }
+  .containerBox .container {
+    width: 1260px;
+    margin: 0 auto; }
+    .containerBox .container .top {
+      padding-top: 20px;
+      width: 1260px;
+      font-size: 14px;
+      color: #666;
+      line-height: 30px;
+      margin-bottom: 29px;
+      width: 1260px;
+      height: 35px; }
+      .containerBox .container .top span {
+        float: left; }
+      .containerBox .container .top span:nth-child(2) {
+        margin: 0 10px; }
+      .containerBox .container .top li {
+        float: left;
+        height: 28px;
+        padding: 0 4px 0 8px;
+        border: 1px solid #ddd;
+        line-height: 28px;
+        margin: 0 8px; }
+        .containerBox .container .top li i {
+          padding: 0 5px;
+          color: #ccc; }
+    .containerBox .container .select {
+      border-bottom: 1px solid #00a8ff;
+      width: 1260px;
+      background: white;
+      padding: 0 10px; }
+      .containerBox .container .select p {
+        color: 262626;
+        font-size: 14px;
+        height: 40px;
+        line-height: 40px; }
+        .containerBox .container .select p span {
+          padding-left: 10px;
+          color: #666; }
+          .containerBox .container .select p span i {
+            color: red;
+            font-weight: 900; }
+      .containerBox .container .select dl {
+        position: relative;
+        display: block;
+        height: 20px;
+        border-bottom: 1px solid #ccc;
+        padding: 8px 0;
+        font-size: 12px;
+        border-bottom: 1px dotted #ddd;
+        margin-bottom: 5px;
+        line-height: 20px; }
+        .containerBox .container .select dl dt {
+          color: #262626;
+          text-align: left;
+          float: left;
+          margin-right: 3px;
+          width: 76px;
+          height: 30px; }
+        .containerBox .container .select dl dd {
+          padding-left: 5px;
+          margin-right: 0; }
+          .containerBox .container .select dl dd span {
+            color: #666;
+            font-size: 12px;
+            margin: 0 3px 3px 3px;
+            display: inline-block;
+            padding-left: 5px;
+            padding-right: 5px;
+            white-space: nowrap; }
+        .containerBox .container .select dl input {
+          width: 48px;
+          height: 18px;
+          float: left; }
+        .containerBox .container .select dl span {
+          float: left;
+          padding-left: 5px;
+          padding-right: 5px; }
+        .containerBox .container .select dl button {
+          border: 1px solid #ccc;
+          width: 50px;
+          font-size: 12px;
+          height: 18px;
+          color: #666;
+          outline: none;
+          background-color: transparent;
+          padding: 0;
+          margin-left: 10px; }
+        .containerBox .container .select dl .more {
+          position: absolute;
+          right: 10px;
+          font-size: 12px;
+          color: #666; }
+      .containerBox .container .select dl:nth-child(4) {
+        height: 40px;
+        padding-right: 60px; }
+    .containerBox .container .loadMore {
+      width: 399px;
+      height: 34px;
+      color: #262626;
+      border: 1px solid #00a8ff;
+      border-top-color: #fff;
+      display: block;
+      margin: -1px auto;
+      text-align: center;
+      background-color: #fff;
+      font-size: 14px;
+      line-height: 34px; }
+    .containerBox .container .gallery {
+      border: none;
+      background-color: #f2f2f2;
+      margin-top: 30px; }
+      .containerBox .container .gallery .galleryLeft {
+        float: left;
+        padding-left: 10px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-size: 14px; }
+        .containerBox .container .gallery .galleryLeft span {
+          margin: 0 5px;
+          color: #666; }
+        .containerBox .container .gallery .galleryLeft span:first-child {
+          color: #00a8ff; }
+        .containerBox .container .gallery .galleryLeft i {
+          margin: 0 5px;
+          color: #b2b2b2; }
+        .containerBox .container .gallery .galleryLeft em {
+          color: #666; }
+      .containerBox .container .gallery .galleryRight {
+        padding: 11px 2px 8px 10px;
+        float: right;
+        width: 230px;
+        font-size: 14px; }
+        .containerBox .container .gallery .galleryRight i:first-child {
+          color: #00a8ff; }
+        .containerBox .container .gallery .galleryRight span:nth-child(2) {
+          color: #00a8ff; }
+    .containerBox .container .detailList {
+      width: 1260px;
+      margin-top: 10px; }
+      .containerBox .container .detailList .detail {
+        width: 296px;
+        height: 370px;
+        padding-top: 30px;
+        background: #fff;
+        margin-right: 14px;
+        margin-bottom: 14px;
+        position: relative;
+        border-bottom: none;
+        float: left; }
+        .containerBox .container .detailList .detail .imgBox {
+          width: 200px;
+          height: 200px;
+          line-height: 198px;
+          text-align: center;
+          margin-top: 40px;
+          margin: 0 auto 10px; }
+          .containerBox .container .detailList .detail .imgBox img {
+            width: 200px;
+            height: 200px;
+            display: inline-block; }
+        .containerBox .container .detailList .detail .title {
+          padding: 0 16px;
+          width: 264px;
+          height: 18px;
+          line-height: 18px;
+          font-size: 12px;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          color: #333;
+          text-align: center; }
+        .containerBox .container .detailList .detail .info {
+          padding: 0 16px;
+          width: 264px;
+          height: 18px;
+          line-height: 18px;
+          font-size: 12px;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          color: #979797;
+          margin-bottom: 10px;
+          text-align: center; }
+        .containerBox .container .detailList .detail .mon .price {
+          font-size: 24px;
+          color: #f00;
+          float: left;
+          text-align: right;
+          margin-left: 60px; }
+        .containerBox .container .detailList .detail .mon .time {
+          border-radius: 5px;
+          border: 1px solid #d62528;
+          background: #fff;
+          color: #d62528;
+          line-height: 20px;
+          display: inline-block;
+          padding-left: 5px;
+          padding-right: 5px;
+          margin-bottom: 3px;
+          height: 18px;
+          margin: 0;
+          margin-left: 20px;
+          margin-top: 5px;
+          font-size: 14px; }
+        .containerBox .container .detailList .detail .bottomList {
+          width: 250px;
+          margin: 0 auto;
+          overflow: hidden;
+          color: #999;
+          margin: 15px auto; }
+          .containerBox .container .detailList .detail .bottomList a {
+            display: block;
+            float: left;
+            width: 60px;
+            height: 28px;
+            line-height: 28px;
+            border: 1px solid #DDD;
+            position: relative;
+            background: #fff;
+            color: #999;
+            text-align: center;
+            font-size: 12px; }
+          .containerBox .container .detailList .detail .bottomList a:nth-child(2) {
+            width: 88px; }
+          .containerBox .container .detailList .detail .bottomList a:nth-child(3) {
+            width: 96px; }
+      .containerBox .container .detailList .detail:hover {
+        transform: translate3d(0, -5px, 0);
+        transition: all linear;
+        -webkit-transition: all .1s linear;
+        box-shadow: 0px 5px 20px #ddd; }
+    .containerBox .container .pageview {
+      width: 350px;
+      margin: 10px auto 20px;
+      text-align: right;
+      line-height: 20px;
+      font-size: 12px;
+      letter-spacing: -3px; }
+      .containerBox .container .pageview .move {
+        display: inline-block;
+        color: #646464;
+        margin: 0 10px;
+        padding: 1px 8px;
+        width: 50px;
+        text-align: center;
+        border-radius: 5px; }
+      .containerBox .container .pageview .move:hover {
+        background-color: #b2b2b2;
+        color: #fff; }
+      .containerBox .container .pageview .flip:hover {
+        background-color: #b2b2b2;
+        color: #fff; }
+      .containerBox .container .pageview .flip {
+        text-align: center;
+        display: inline-block;
+        margin: 0 10px;
+        padding: 1px 8px;
+        width: 50px;
+        color: #666;
+        border-radius: 5px;
+        font-size: 12px; }
+      .containerBox .container .pageview .flip:nth-child(2) {
+        background-color: #b2b2b2;
+        color: #fff; }
+
+#serveBox {
+  width: 100%;
+  height: 44px;
+  padding-top: 18px;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  background-color: #fafafa; }
+  #serveBox #serve {
+    width: 1260px;
+    height: 44px;
+    margin: 0 auto; }
+    #serveBox #serve ul li {
+      float: left;
+      width: 244px;
+      height: 28px;
+      font-size: 14px;
+      border-right: 1px solid #ccc;
+      color: #666; }
+      #serveBox #serve ul li i {
+        display: inline-block;
+        width: 30px;
+        height: 28px;
+        vertical-align: middle;
+        background: url(https://static.asus.com.cn/static/store/css/images/service_icon.png) no-repeat;
+        margin-right: 5px; }
+    #serveBox #serve li:nth-child(2) i {
+      background-position: 0 25%; }
+    #serveBox #serve li:nth-child(3) i {
+      background-position: 0 48%; }
+    #serveBox #serve li:nth-child(4) i {
+      background-position: 0 75%; }
+    #serveBox #serve li:nth-child(5) i {
+      background-position: 0 100%; }
+
+#helperBox {
+  padding-top: 60px;
+  padding-bottom: 80px;
+  background-color: #fafafa; }
+  #helperBox .help {
+    width: 1226px;
+    margin: 0 auto; }
+    #helperBox .help .helpItem {
+      margin-right: 100px;
+      float: left;
+      width: 204px; }
+      #helperBox .help .helpItem .contentTitle {
+        font-size: 16px;
+        color: #2d2d2d;
+        line-height: 24px;
+        margin-bottom: 15px; }
+      #helperBox .help .helpItem dd {
+        line-height: 24px;
+        font-size: 14px;
+        color: #646464; }
+
+#footer {
+  background-color: #fff;
+  padding-top: 20px;
+  text-align: center;
+  line-height: 1.8;
+  margin-top: 10px;
+  font-size: 14px; }
+  #footer p {
+    text-align: center;
+    color: #333; }
+    #footer p a {
+      color: #333;
+      font-size: 14px; }
+  #footer .bot {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px 0;
+    text-align: center; }
+    #footer .bot img {
+      text-align: center;
+      float: left; }
+    #footer .bot p img {
+      vertical-align: middle; }
+    #footer .bot p a {
+      float: left;
+      margin-left: 10px;
+      text-decoration: none;
+      height: 20px;
+      line-height: 20px; }
